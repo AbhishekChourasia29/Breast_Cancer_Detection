@@ -1,0 +1,139 @@
+body {
+  margin: 0;
+  font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #212529;
+  text-align: left;
+  background-color: #ffebfbbc;
+}
+
+.carousel-caption {
+  font-family: Arial;
+  font-size: 50px;
+  animation: fadeIn 5s;
+  -webkit-animation: fadeIn 5s;
+  -moz-animation: fadeIn 5s;
+  -o-animation: fadeIn 5s;
+  -ms-animation: fadeIn 5s;
+  
+}
+.navbar-collapse{
+justify-content: center;
+justify-content: space-evenly;
+
+}
+.navbar{
+  position: fixed;
+  z-index: 1;
+  width:100%;
+  
+}
+.navbar-brand{
+  margin-left: 10%;
+ 
+}
+.navbar-collapse{
+
+position: relative;
+left: 50rem;
+font-size: 18px;
+justify-content: space-evenly;
+}
+.navbar-collapse ul li{
+padding-right:2rem;
+
+}
+
+.carousel-inner img{
+filter: brightness(50%);
+}
+form h2{
+  font-size: 1rem;
+}
+
+.Input{
+  width:80%;
+
+}
+footer{
+  width: 100%;
+  text-align: center;
+  background-color: #ffd5ed;
+  
+ 
+}
+footer h3{
+  font-size: 1.2em;
+padding: 1rem;
+}
+.d-block{
+  filter: brightness(50%);
+
+}
+.Pre-form{
+  margin-left: 10%;
+  width: 80%;
+}
+
+.pre-class{
+text-align: center;
+}
+.form-box{
+  width: 80%;
+}
+@keyframes fadeIn {
+  0% { opacity: 0; }
+  100% { opacity: 1; }
+}
+
+@-moz-keyframes fadeIn {
+  0% { opacity: 0; }
+  100% { opacity: 1; }
+}
+
+@-webkit-keyframes fadeIn {
+  0% { opacity: 0; }
+  100% { opacity: 1; }
+}
+
+@-o-keyframes fadeIn {
+  0% { opacity: 0; }
+  100% { opacity: 1; }
+}
+
+@-ms-keyframes fadeIn {
+  0% { opacity: 0; }
+  100% { opacity: 1; }
+}
+
+.bg-light {
+  background-color: #ffd5ed!important;
+}
+
+.col-md-7{
+ max-width:35rem;
+ 
+
+}
+.col-md-7 p{
+font-size: 16px;
+letter-spacing: 1px;
+
+}
+.featurette{
+  display: flex;
+  flex-direction: row;
+  max-width: 100%;
+  justify-content: space-evenly;
+}
+
+.col-md-5 img{
+ aspect-ratio: 4/5;
+ object-fit: fill;
+
+}
+.upper img{
+  margin-left: 5rem;
+}
